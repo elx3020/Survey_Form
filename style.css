@@ -1,6 +1,6 @@
 :root{
     --color-white: white;
-    --color-darkred: blue;
+    --color-darkred: rgb(90, 17, 17);
     --color-alphared: rgba(124, 23, 23, 0.4);
     --color-green: rgb(63, 151, 122);
 }
@@ -20,8 +20,6 @@ body {
   line-height: 1.4;
   color: var(--color-white);
   margin: 0;
-  z-index: 1;
-  background:linear-gradient(0deg,gray,blue);
 }
 
 body::before {
@@ -32,7 +30,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  /* background: var(--color-darkblue); */
+  background: var(--color-darkred);
   background-image: linear-gradient(
       0deg,
       rgba(158, 58, 58, 0.1),
